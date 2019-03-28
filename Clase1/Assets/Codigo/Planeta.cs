@@ -63,7 +63,7 @@ public class Planeta : MonoBehaviour
             transform.position.z);
 
             anillo1.transform.rotation = Quaternion.Euler(0, tiempoSol * 5, 0);
-            anillo2.transform.rotation = Quaternion.Euler(0, tiempoSol * 5, 0);
+            anillo2.transform.rotation = Quaternion.Euler(0, tiempoSol * 5, 180);
         }
 
     }
