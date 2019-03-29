@@ -5,36 +5,39 @@ using UnityEngine;
 public class CamaraSwitch : MonoBehaviour
 {
     float tiempo;
+    public float velocidadGiro;
+    public float radio;
+
     public GameObject camara;
-    public GameObject camara2;
-    bool camara1Active = true;
-    bool camara2Active = false;
-    //public bool camaraActiva;
+    public GameObject sigCamara;
+
+    public GameObject planetaRepresentado;
+
+    //bool camara1Active = true;
 
     // Start is called before the first frame update
     void Start()
     {
-        camara.SetActive(camara1Active);
-        camara2.SetActive(camara2Active);
-        //Debug.Log("Nombre del Planeta: ");
+        camara.SetActive(true);
     }
 
     // Update is called once per frame
     void Update()
     {
         tiempo += Time.deltaTime;
-        if (tiempo >= 2)
+
+        if (tiempo >= 6)
         {
-            
-            camara.SetActive(!camara1Active);
-            camara2.SetActive(!camara2Active);
-            //camara.enabled = !camara.enabled;
-            //camara2.enabled = !camara2.enabled;
             tiempo = 0;
+            camara.SetActive(false);
+            sigCamara.SetActive(true);
         }
-        //if (camaraActiva)
-        //{
-            
-        //}
+
+        camara.transform.position = new Vector3(
+            planetaRepresentado.transform.position.x + radio * Mathf.Cos(tiempo),
+            camara.transform.position.y,
+            planetaRepresentado.transform.position.z + radio * Mathf.Sin(tiempo));
+
+        transform.rotation = Quaternion.Euler(0, tiempo * -velocidadGiro, 0);
     }
 }
