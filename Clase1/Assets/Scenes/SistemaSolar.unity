@@ -800,7 +800,7 @@ MonoBehaviour:
   camara: {fileID: 568067540}
   sigCamara: {fileID: 1666317684}
   planetaRepresentado: {fileID: 1934937706}
-  diferenciaCamara: {x: 7, y: 0, z: 7}
+  diferenciaCamara: {x: 7, y: 2, z: 7}
   mainCamera: 0
 --- !u!20 &568067544
 Camera:
@@ -1237,7 +1237,7 @@ MonoBehaviour:
   camara: {fileID: 984600861}
   sigCamara: {fileID: 1228939937}
   planetaRepresentado: {fileID: 1904703882}
-  diferenciaCamara: {x: 3, y: 0, z: 3}
+  diferenciaCamara: {x: 3, y: 2, z: 3}
   mainCamera: 0
 --- !u!1 &1036325896
 GameObject:
@@ -2519,7 +2519,7 @@ MonoBehaviour:
   camara: {fileID: 1228939937}
   sigCamara: {fileID: 568067540}
   planetaRepresentado: {fileID: 1206223409}
-  diferenciaCamara: {x: 6, y: 0, z: 6}
+  diferenciaCamara: {x: 6, y: 2, z: 6}
   mainCamera: 0
 --- !u!20 &1228939941
 Camera:
@@ -2619,7 +2619,7 @@ MonoBehaviour:
   camara: {fileID: 1290109665}
   sigCamara: {fileID: 1710766916}
   planetaRepresentado: {fileID: 1795152721}
-  diferenciaCamara: {x: 8, y: 1, z: 8}
+  diferenciaCamara: {x: 8, y: 2, z: 8}
   mainCamera: 0
 --- !u!20 &1290109668
 Camera:
@@ -3110,7 +3110,7 @@ MonoBehaviour:
   camara: {fileID: 1666317684}
   sigCamara: {fileID: 2115992390}
   planetaRepresentado: {fileID: 194837281}
-  diferenciaCamara: {x: 3, y: 0, z: 3}
+  diferenciaCamara: {x: 3, y: 2, z: 3}
   mainCamera: 0
 --- !u!20 &1666317687
 Camera:
@@ -3310,7 +3310,7 @@ MonoBehaviour:
   camara: {fileID: 1710766916}
   sigCamara: {fileID: 1940433932}
   planetaRepresentado: {fileID: 1044790158}
-  diferenciaCamara: {x: 4, y: 0, z: 4}
+  diferenciaCamara: {x: 4, y: 2, z: 4}
   mainCamera: 0
 --- !u!20 &1710766919
 Camera:
@@ -4271,7 +4271,7 @@ MonoBehaviour:
   camara: {fileID: 1940433932}
   sigCamara: {fileID: 1219853396}
   planetaRepresentado: {fileID: 1036325896}
-  diferenciaCamara: {x: 3, y: 0, z: 3}
+  diferenciaCamara: {x: 3, y: 2, z: 3}
   mainCamera: 0
 --- !u!20 &1940433935
 Camera:
@@ -4371,7 +4371,7 @@ MonoBehaviour:
   camara: {fileID: 2115992390}
   sigCamara: {fileID: 1290109665}
   planetaRepresentado: {fileID: 1363633175}
-  diferenciaCamara: {x: 5, y: 0, z: 5}
+  diferenciaCamara: {x: 5, y: 2, z: 5}
   mainCamera: 0
 --- !u!20 &2115992393
 Camera:
