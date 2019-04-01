@@ -33,7 +33,11 @@ public class CamaraSwitch2 : MonoBehaviour
             sigCamara.SetActive(true);
         }
 
-        if(!mainCamera) transform.position = planetaRepresentado.transform.position + diferenciaCamara;
+        if (!mainCamera)
+        {
+            transform.position = planetaRepresentado.transform.position + diferenciaCamara;
+            transform.rotation = Quaternion.Euler(transform.rotation.x + 20, -116, 0);
+        } 
 
     }
 }
