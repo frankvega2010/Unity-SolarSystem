@@ -731,14 +731,15 @@ MonoBehaviour:
   planeta: {fileID: 1629990262}
   material: {fileID: 2100000, guid: ed934210c29b7534aa871dc0bf822e84, type: 2}
   materialesPlanetas:
-  - {fileID: 2100000, guid: 80debd47a1496434cad54c0810c1833f, type: 2}
-  - {fileID: 2100000, guid: f92fbbfaa2f023c4ba3963c2ff46685f, type: 2}
   - {fileID: 2100000, guid: 6106c9c3c62085c44b83f5f77e458041, type: 2}
-  - {fileID: 2100000, guid: ed934210c29b7534aa871dc0bf822e84, type: 2}
-  - {fileID: 2100000, guid: cd174fbeb88f6a64f88a6ca682a71463, type: 2}
-  - {fileID: 2100000, guid: 544f32bde3b243a49a4ad8cf16b94835, type: 2}
+  - {fileID: 2100000, guid: 6106c9c3c62085c44b83f5f77e458041, type: 2}
   - {fileID: 2100000, guid: ea50c26c58808b64cb3751802f69bf6f, type: 2}
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 544f32bde3b243a49a4ad8cf16b94835, type: 2}
+  - {fileID: 2100000, guid: f92fbbfaa2f023c4ba3963c2ff46685f, type: 2}
+  - {fileID: 2100000, guid: 80debd47a1496434cad54c0810c1833f, type: 2}
+  - {fileID: 2100000, guid: cd174fbeb88f6a64f88a6ca682a71463, type: 2}
+  - {fileID: 2100000, guid: ea50c26c58808b64cb3751802f69bf6f, type: 2}
+  - {fileID: 2100000, guid: 9eafeff084637514f874de919aeca51e, type: 2}
 --- !u!4 &2143105462
 Transform:
   m_ObjectHideFlags: 0
@@ -800,5 +801,15 @@ PrefabInstance:
       propertyPath: anillo2
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5571131724387148073, guid: 334f71618086a1649a18132ffaded990,
+        type: 3}
+      propertyPath: tieneLuna
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5571131724387148073, guid: 334f71618086a1649a18132ffaded990,
+        type: 3}
+      propertyPath: sol
+      value: 
+      objectReference: {fileID: 229300741}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 334f71618086a1649a18132ffaded990, type: 3}

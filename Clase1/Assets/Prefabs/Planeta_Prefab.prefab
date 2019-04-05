@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3149386288499307750}
   - component: {fileID: 1140833676658640260}
   - component: {fileID: 6401230487982581005}
+  - component: {fileID: 5571131724387148073}
   m_Layer: 0
   m_Name: Planeta_Prefab
   m_TagString: Untagged
@@ -277,3 +278,24 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!114 &5571131724387148073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8558657768365687288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13feea989ce4e5f41b52b3714f96c2c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radio: 0
+  velocidadGiro: 0
+  velocidadRotEje: 0
+  sol: {fileID: 0}
+  tieneLuna: 0
+  luna: {fileID: 0}
+  tieneAnillo: 0
+  anillo1: {fileID: 0}
+  anillo2: {fileID: 0}
