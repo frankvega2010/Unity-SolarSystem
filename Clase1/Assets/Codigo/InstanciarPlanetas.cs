@@ -78,6 +78,7 @@ public class InstanciarPlanetas : MonoBehaviour
                         planetaClonado.GetComponent<Planeta>().radio = 130;
                         planetaClonado.GetComponent<Planeta>().velocidadGiro = 0.18f;
                         planetaClonado.GetComponent<Planeta>().velocidadRotEje = 4;
+                        //planetaClonado.GetComponent<>
                         break;
                     default:
                     break;
